@@ -67,6 +67,7 @@ header.topo img:hover {
   height: 150px;
   object-fit: cover;
   transition: transform 0.3s;
+  filter: brightness(0.8) blur(1px);
 }
 
 .card:hover img {
@@ -75,20 +76,24 @@ header.topo img:hover {
 
 .card p {
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   width: 100%;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.5);
-  padding: 5px;
+  padding: 8px;
   font-weight: bold;
+  font-size: 15px;
 }
 
-/* Desfoque leve */
-.blur {
-  filter: brightness(0.7) blur(1px);
+/* Texto das páginas */
+.texto {
+  padding: 20px;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
+/* Rodapé */
 footer {
   background-color: #1b7da8;
   color: white;
@@ -97,7 +102,7 @@ footer {
   margin-top: 20px;
 }
 
-/* Página de conteúdo */
+/* Cabeçalho das páginas internas */
 header.voltar {
   display: flex;
   align-items: center;
