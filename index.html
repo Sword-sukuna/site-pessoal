@@ -1,60 +1,51 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Raul Rosa — Inicial</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Libre+Franklin:wght@300;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raul Rosa | Início</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
-<body>
+<body class="home">
 
-  <header class="topbar">
-    <div class="socials">
-      <a href="#" aria-label="WhatsApp" class="icon">🟢</a>
-      <a href="#" aria-label="Facebook" class="icon">🔵</a>
-      <a href="#" aria-label="Instagram" class="icon">🟣</a>
+  <header class="topo">
+    <div class="redes">
+      <a href="https://wa.me/55" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+      <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+      <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
     </div>
   </header>
 
-  <nav class="nav">
-    <a href="index.html" class="nav-item active">inicial</a>
-    <a href="estudo.html" class="nav-item">estudo</a>
-    <a href="livros.html" class="nav-item">livros</a>
-    <a href="games.html" class="nav-item">games</a>
-  </nav>
+  <main>
+    <section class="perfil">
+      <!-- Adicione aqui a sua imagem -->
+      <img src="img/perfil.jpg" alt="Raul Rosa" class="perfil-foto">
+      <h1>RAUL ROSA</h1>
+    </section>
 
-  <main class="container">
-    <section class="hero">
-      <div class="hero-inner">
-        <div class="avatar" style="background-image:url('assets/images/avatar.jpg')"></div>
-        <h1>RAUL ROSA</h1>
-        <h2 class="subtitle">DESTAQUES</h2>
+    <section class="destaques">
+      <h2>DESTAQUES</h2>
+      <div class="cards">
+        <a href="games.html" class="card">
+          <img src="img/games.jpg" alt="Games" class="blur">
+          <p>GAMES</p>
+        </a>
+        <a href="livros.html" class="card">
+          <img src="img/livros.jpg" alt="Livros" class="blur">
+          <p>LIVROS</p>
+        </a>
+        <a href="estudo.html" class="card">
+          <img src="img/estudo.jpg" alt="Estudo" class="blur">
+          <p>ESTUDO</p>
+        </a>
       </div>
     </section>
-
-    <section class="highlights grid fade-in">
-      <a class="card" href="games.html" aria-label="Jogos">
-        <img src="assets/images/resident-cover.jpg" alt="Games cover">
-        <span>GAMES</span>
-      </a>
-
-      <a class="card" href="livros.html" aria-label="Livros">
-        <img src="assets/images/livros-cover.jpg" alt="Livros cover">
-        <span>LIVROS</span>
-      </a>
-
-      <a class="card" href="estudo.html" aria-label="Estudo">
-        <img src="assets/images/estudo-cover.jpg" alt="Estudo cover">
-        <span>ESTUDO</span>
-      </a>
-    </section>
-
-    <footer class="footer">
-      <p>mais informações: contato@seudominio.com • © Raul Rosa</p>
-    </footer>
   </main>
 
-  <script src="scripts.js"></script>
+  <footer>
+    <p>Mais informações entre em contato nas redes sociais.</p>
+  </footer>
+
 </body>
 </html>

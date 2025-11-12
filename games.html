@@ -1,52 +1,40 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Games — Raul Rosa</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Libre+Franklin:wght@300;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games | Raul Rosa</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav class="nav">
-    <a href="index.html" class="nav-item">inicial</a>
-    <a href="estudo.html" class="nav-item">estudo</a>
-    <a href="livros.html" class="nav-item">livros</a>
-    <a href="games.html" class="nav-item active">games</a>
-  </nav>
+  <header class="voltar">
+    <a href="index.html">⬅</a>
+    <h1>GAMES</h1>
+  </header>
 
-  <main class="container">
-    <section class="page-title fade-in">
-      <h1>GAMES</h1>
-    </section>
+  <main>
+    <p>Eu adoro games, e alguns dos meus favoritos são:</p>
 
-    <section class="content fade-in">
-      <p class="lead">Se você curte jogos, veja alguns que marcaram minha lista:</p>
-
-      <div class="games-list">
-        <div class="game-card">
-          <img src="assets/images/resident-thumb.jpg" alt="Resident Evil">
-          <h4>Resident Evil 4</h4>
-        </div>
-
-        <div class="game-card">
-          <img src="assets/images/sekiro-thumb.jpg" alt="Sekiro">
-          <h4>Sekiro</h4>
-        </div>
-
-        <div class="game-card">
-          <img src="assets/images/ghost-thumb.jpg" alt="Ghost of Tsushima">
-          <h4>Ghost of Tsushima</h4>
-        </div>
+    <div class="cards">
+      <div class="card">
+        <img src="img/residentevil.jpg" alt="Resident Evil 4" class="blur">
+        <p>RESIDENT EVIL 4</p>
       </div>
-    </section>
-
-    <footer class="footer">
-      <p>voltar para <a href="index.html">inicial</a></p>
-    </footer>
+      <div class="card">
+        <img src="img/sekiro.jpg" alt="Sekiro" class="blur">
+        <p>SEKIRO</p>
+      </div>
+      <div class="card">
+        <img src="img/ghost.jpg" alt="Ghost of Tsushima" class="blur">
+        <p>GHOST OF TSUSHIMA</p>
+      </div>
+    </div>
   </main>
 
-  <script src="scripts.js"></script>
+  <footer>
+    <p>Volte à página inicial para mais conteúdos.</p>
+  </footer>
+
 </body>
 </html>
