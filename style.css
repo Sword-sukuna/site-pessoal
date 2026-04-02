@@ -1,3 +1,6 @@
+
+/* Estilo da pagina */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +8,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Corpo da pagina */
+
 body {
   background-color: #f2f2f2;
   color: #000;
   text-align: center;
 }
+
+/* Cabeçalho */
 
 header.topo {
   background-color: #1b7da8;
@@ -18,6 +25,8 @@ header.topo {
   justify-content: center;
   gap: 15px;
 }
+
+/* Icone das redes sociais */
 
 header.topo img {
   width: 30px;
@@ -35,12 +44,16 @@ header.topo img:hover {
   background-color: #89bcd9;
 }
 
+/* Foto de perfil */
+
 .perfil-foto {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
 }
+
+/* Destaques do h2 */
 
 .destaques h2 {
   background-color: #3f6b84;
@@ -61,6 +74,9 @@ header.topo img:hover {
   border-radius: 10px;
   cursor: pointer;
 }
+
+/* Animção de aproximar e afastar */
+
 
 .card img {
   width: 100%;
@@ -87,6 +103,7 @@ header.topo img:hover {
 }
 
 /* Texto das páginas */
+
 .texto {
   padding: 20px;
   line-height: 1.5;
@@ -94,6 +111,7 @@ header.topo img:hover {
 }
 
 /* Rodapé */
+
 footer {
   background-color: #1b7da8;
   color: white;
@@ -103,6 +121,7 @@ footer {
 }
 
 /* Cabeçalho das páginas internas */
+
 header.voltar {
   display: flex;
   align-items: center;
